@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-    --background: #D3D3D3;
-    --foreground: #0B090A;
-    --text-selection: #E5383B;
+    --background: #161A1D;
+    --foreground: #F5F3F4;
+    --text-selection: #A4161A;
 }
 
 @media (prefers-color-scheme: dark) {
