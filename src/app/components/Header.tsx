@@ -1,14 +1,11 @@
 import React from "react";
 
-function Header() {
+export const Header = () => {
   return (
-    <header className="flex flex-col items-center  font-[family-name:var(--font-geist-mono)] leading-6">
-      <h1 className="text-4xl uppercase font-bold">hello I&apos;m</h1>
-      <h2>Enzo Bustamante</h2>
-      <h3>IES 9-021</h3>
-      <h4>Student</h4>
+    <header className=" flex flex-col  -ml-36 -rotate-90 text-center  font-[family-name:var(--font-geist-mono)] leading-6">
+      <h2 className="lg:text-5xl sm:text-4xl">Enzo Bustamante</h2>
+      <h3 className="lg:text-3xl sm:text-2xl">IES 9-021</h3>
+      <h4 className="lg:text-xl sm:text-lg">Student</h4>
     </header>
   );
-}
-
-export default Header;
+};
